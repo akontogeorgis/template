@@ -1,0 +1,24 @@
+/*Using manifest.json, you specify basic metadata about your extension such as the name and version,
+and can also specify aspects of your extension's functionality, such as background scripts, content scripts, and browser actions.
+
+The web app manifest is a simple JSON file that tells the browser about your web application
+and how it should behave when 'installed' on the user's mobile device or desktop.
+Having a manifest is required by Chrome to show the Add to Home Screen prompt.
+
+*/
+
+{
+  "short_name": "React App Template",
+  "name": "Create React App Template",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
