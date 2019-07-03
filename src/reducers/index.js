@@ -6,7 +6,6 @@ import {
 const initialState = fromJS({
 	isApiCallSuccessful: false,
 	apiCall: false,
-
 });
 
 export default (state = initialState, action) => {
